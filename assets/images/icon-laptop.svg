@@ -1,0 +1,40 @@
+<svg width="42" height="32" viewBox="0 0 42 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Laptop Body -->
+    <path d="M1.5 1.5H40.5V25.5H1.5V1.5Z" fill="url(#paint0_linear)" stroke="url(#paint1_linear)" stroke-width="0.25"/>
+    <!-- Laptop Screen -->
+    <path d="M3.5 3.5H38.5V23.5H3.5V3.5Z" fill="url(#paint2_linear)" stroke="url(#paint3_linear)" stroke-width="0.25"/>
+    <!-- Code Brackets on the Screen -->
+    <text x="10" y="17" font-family="Arial" font-size="15" fill="#fb8504">&lt; &gt;</text>
+    <!-- Laptop Base -->
+    <path d="M1.5 27.5H40.5V29.5H1.5V27.5Z" fill="url(#paint4_linear)" stroke="url(#paint5_linear)" stroke-width="0.25"/>
+    
+    <defs>
+        <!-- Gradients for the Laptop Body -->
+        <linearGradient id="paint0_linear" x1="1.5" y1="1.5" x2="40.5" y2="25.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0.259336" stop-color="#FFDB6E"/>
+            <stop offset="1" stop-color="#FFBC5E"/>
+        </linearGradient>
+        <linearGradient id="paint1_linear" x1="1.5" y1="1.5" x2="40.5" y2="25.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0.259336" stop-color="#FFDB6E"/>
+            <stop offset="1" stop-color="#FFBC5E"/>
+        </linearGradient>
+        <!-- Gradients for the Laptop Screen -->
+        <linearGradient id="paint2_linear" x1="3.5" y1="3.5" x2="38.5" y2="23.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0.259336" stop-color="#FFDB6E"/>
+            <stop offset="1" stop-color="#FFBC5E"/>
+        </linearGradient>
+        <linearGradient id="paint3_linear" x1="3.5" y1="3.5" x2="38.5" y2="23.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0.259336" stop-color="#FFDB6E"/>
+            <stop offset="1" stop-color="#FFBC5E"/>
+        </linearGradient>
+        <!-- Gradients for the Laptop Base -->
+        <linearGradient id="paint4_linear" x1="1.5" y1="27.5" x2="40.5" y2="29.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0.259336" stop-color="#FFDB6E"/>
+            <stop offset="1" stop-color="#FFBC5E"/>
+        </linearGradient>
+        <linearGradient id="paint5_linear" x1="1.5" y1="27.5" x2="40.5" y2="29.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0.259336" stop-color="#FFDB6E"/>
+            <stop offset="1" stop-color="#FFBC5E"/>
+        </linearGradient>
+    </defs>
+</svg>

@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/LinkedIn Pic.jpg"
+              alt="Jeriel Chan"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Jeriel Chan">Jeriel Chan</h1>
+
+            <p class="title">Aspiring Software Engineer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:jerielchanzyh@gmail.com" class="contact-link"
+                  >jerielchanzyh@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">School Email</p>
+
+                <a href="mailto:jerielchanzy@u.nus.edu" class="contact-link"
+                  >jerielchanzy@u.nus.edu</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link">+65 92232010</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2001-03-28">February 09, 2001</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Singapore</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/Nimastic" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://linkedin.com/in/jerielchan" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.instagram.com/jerielchan" class="social-link" target="_blank" rel="noopener noreferrer">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I am currently in my second year at the National University of
+              Singapore, pursuing a Bachelor of Computing (Honors) in Computer
+              Science. ...
+            </p>
+
+            <p>
+              ...
+            </p>
+
+            <p>
+              ...
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What I'm planning to do</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Engage in more personal projects
+                  </h4>
+
+                  <p class="service-item-text">
+                    ...
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Personal Website Improvement
+                  </h4>
+
+                  <p class="service-item-text">
+                    ...
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-book.svg"
+                    alt="book icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Study harder!</h4>
+
+                  <p class="service-item-text">
+                    ...
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-laptop.svg"
+                    alt="laptop icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Participate in more hackathons
+                  </h4>
+
+                  <p class="service-item-text">
+                    ...
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Placeholder"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Placeholder
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Jeriel Chan is a standout Software Engineer intern known for
+                      his exceptional technical skills and strategic business
+                      insights. His proactive and entrepreneurial spirit
+                      consistently elevates the team's performance. Despite
+                      having lesser experience than others, Jeriel Chan displays a
+                      strong commitment to continuous learning and innovation,
+                      always seeking opportunities to drive positive change. His
+                      work ethic, paired with his leadership potential, makes
+                      him an invaluable asset to any organization.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Placeholder</h4>
+
+                <time datetime="2023-08-23">23 August, 2023</time>
+
+                <div data-modal-text>
+                  <p>
+                    Jeriel Chan is a standout Software Engineer intern known for his
+                    exceptional technical skills and strategic business
+                    insights. His proactive and entrepreneurial spirit
+                    consistently elevates the team's performance. Despite having
+                    lesser experience than others, Jeriel Chan displays a strong
+                    commitment to continuous learning and innovation, always
+                    seeking opportunities to drive positive change. His work
+                    ethic, paired with his leadership potential, makes him an
+                    invaluable asset to any organization.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+          </article>
+
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  National University of Singapore
+                </h4>
+                <h5 class="h5 degree-title">
+                  <i>Bachelor of Computing (Honors) in Computer Science</i>
+                </h5>
+                <span>Aug 2022 — May 2026</span>
+
+                <p class="timeline-text">
+                  ...
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  ...
+                </h4>
+                <h5 class="h5 degree-title">
+                  <i>Singapore-Cambridge GCE A Level</i>
+                </h5>
+
+                <span>Feb 2017 - Dec 2018</span>
+
+                <p class="timeline-text">
+                  ...
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">...</h4>
+                <h5 class="h5 degree-title">
+                  <i>...</i>
+                </h5>
+
+                <span>Jan 2014 - Dec 2016</span>
+
+                <p class="timeline-text">
+                  ...
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Software Engineer</h4>
+                <h5 class="h5 job-location"><i>MVP Studio</i></h5>
+
+                <span>Jan 2024 - Present</span>
+
+                <p class="timeline-text">
+                  ● ... <br />
+                  ● ... <br />
+                  ● ... <br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">AI Developer</h4>
+                <h5 class="h5 job-location"><i>...</i></h5>
+
+                <span>Dec 2023 - Jan 2024</span>
+
+                <p class="timeline-text">
+                  ● ... <br />
+                  ● ... <br />
+                  ● ... <br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Software Engineer</h4>
+                <h5 class="h5 job-location"><i>...</i></h5>
+
+                <span>May 2023 - Aug 2023</span>
+
+                <p class="timeline-text">
+                  ● ... <br />
+                  ● ...
+                  <br />
+                  ● ... <br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  ...
+                </h4>
+                <h5 class="h5 job-location">
+                  <i>Singapore Civil Defence Force</i>
+                </h5>
+
+                <span>June 2020 - April 2022</span>
+
+                <p class="timeline-text">
+                  • ...
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Co-Curricular Activity</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  ...
+                </h4>
+                <h5 class="h5 job-location"><i>NUS Entrepreneur Society</i></h5>
+
+                <span>Aug 2023 - Present</span>
+
+                <p class="timeline-text">
+                  • ...
+                  <br />
+                  • ...
+                  <br />
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <!-- Resume Download Section -->
+          <section class="resume-download">
+            <a href="./assets/resume.pdf" class="resume-download-btn" download
+              >Download Resume</a
+            >
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">Languages</h3>
+            <div class="skills-section languages">
+              <img
+                src="assets/images/language-icons/js.svg"
+                alt="JavaScript"
+                title="JavaScript"
+                class="skill-icon"
+              />
+              <img
+                src="assets/images/language-icons/java-svgrepo-com.svg"
+                alt="Java"
+                title="Java"
+                class="skill-icon"
+              />
+              <img
+                src="assets/images/html-tag-svgrepo-com.svg"
+                alt="HTML"
+                title="HTML"
+                class="skill-icon"
+              />
+              <img
+                src="assets/images/css-svgrepo-com.svg"
+                alt="CSS"
+                title="CSS"
+                class="skill-icon"
+              />
+              <img
+                src="assets/images/language-icons/python.svg"
+                alt="Python"
+                title="Python"
+                class="skill-icon"
+              />
+            </div>
+            <h3 class="h3 skills-title">Frameworks & Tools</h3>
+            <div class="skills-section tools">
+              <img
+                src="assets/images/framework-tools-icons/firebase.svg"
+                alt="Firebase"
+                title="Firebase"
+                class="skill-icon"
+              />
+              <img
+                src="assets/images/framework-tools-icons/git.svg"
+                alt="Git"
+                title="Git"
+                class="skill-icon"
+              />
+              <img
+                src="assets/images/framework-tools-icons/postgres.svg"
+                alt="PostgreSQL"
+                title="PostgreSQL"
+                class="skill-icon"
+              />
+              <img
+                src="assets/images/framework-tools-icons/node-js-svgrepo-com.svg"
+                alt="Node.js"
+                title="Node.js"
+                class="skill-icon"
+              />
+              <img
+                src="assets/images/framework-tools-icons/mongodb-svgrepo-com.svg"
+                alt="MongoDB"
+                title="MongoDB"
+                class="skill-icon"
+              />
+              <img
+                src="assets/images/framework-tools-icons/react.svg"
+                alt="React"
+                title="React"
+                class="skill-icon"
+              />
+            </div>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/GymBuddyPoster.png"
+                      alt="gym buddy"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Placeholder</h3>
+
+                  <p class="project-category">Placeholder</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/pomodoropic.png"
+                      alt="Pomodoro"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Placeholder</h3>
+
+                  <p class="project-category">Placeholder</p>
+                </a>
+              </li>
+
+
+        </article>
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.045421166165!2d103.81725568022461!3d1.352083000000013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1767d9a17b33%3A0x400f7acaed1a5a0!2sSingapore!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                width="400"
+                height="300"
+                loading="lazy"
+              >
+              </iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form name="contact" method="post" data-netlify="true">
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+              <input type="hidden" name="_redirect" value="index.html" />
+              <button class="form-btn" type="submit" disabled>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+    </main>
+    
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
